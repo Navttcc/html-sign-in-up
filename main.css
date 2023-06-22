@@ -1,0 +1,93 @@
+html{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(image.jpg);
+     background-repeat: no-repeat;
+     background-size: 100%, 100%;
+     
+}
+.header{
+    width: 100%;
+    display: flex;
+     background-color: grey;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 5px 0;
+}
+.logo{
+    padding-left: 10px;
+}
+.login{
+    display: flex;
+    padding-right: 20px;
+     
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-div{
+    width: 100%;
+     height: 70vh;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+     
+     
+}
+.center-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 600px;
+     background-color: rgb(104, 100, 100);
+    height: 50vh;
+    border: 1px solid black;
+    opacity: 0.7;
+}
+.row{
+    display: flex;
+     width: 100%;
+      
+     justify-content: center;
+     align-items: center;
+}
+
+.col-4{
+    display: flex;
+     flex-direction: column;
+     margin: 10px;
+     width: 100%;
+     justify-content: center;
+     align-items: center;
+     
+     
+}
+h2{
+    color: #fff;
+}
+/* input styling */
+input[type=text], [type=email], [type=password], [type=submit]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+      
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+ label{
+    color: #fff;
+ }
+ 
+input:focus {
+     outline: none;
+     border-color: blue;
+}
+ 
