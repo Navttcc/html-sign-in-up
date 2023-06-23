@@ -6,7 +6,7 @@ body{
     margin: 0;
     padding: 0;
     background-image: url(image.jpg);
-     background-repeat: no-repeat;
+     background-repeat: no-repeat, no-repeat;
      background-size: 100%, 100%;
      
 }
@@ -51,21 +51,32 @@ a{
     border: 1px solid black;
     opacity: 0.7;
 }
+.signin::after{
+    
+    content: " ";
+    position: absolute;
+    left: 1485px;
+    right: 200px;
+    bottom: 680px;
+    font-size: xx-large;
+    border-left: 10px;
+    color: red;
+}
+ 
 .row{
     display: flex;
-     width: 100%;
+     width: 100%;  
       
-     justify-content: center;
-     align-items: center;
+     
 }
 
 .col-4{
     display: flex;
      flex-direction: column;
      margin: 10px;
-     width: 100%;
-     justify-content: center;
+     width: 100%; 
      align-items: center;
+     
      
      
 }
@@ -75,7 +86,7 @@ h2{
 /* input styling */
 input[type=text], [type=email], [type=password], [type=submit]{
     width: 100%;
-    padding: 12px 20px;
+    padding: 10px 20px;
     margin: 8px 0;
       
     border: 1px solid #ccc;
@@ -91,3 +102,15 @@ input:focus {
      border-color: blue;
 }
  
+/* responsive css */
+@media only screen and (max-width: 1200px) {
+    body {
+        background-image: none;
+    }
+  }
+  
+@media only screen and (max-width: 600px) {
+    body {
+       background-image: none;
+    }
+  }
