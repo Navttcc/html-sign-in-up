@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="main.css">
-    <title>Document</title>
+    <title>Sign-In</title>
 </head>
 <body>
     <!-- header -->
@@ -20,23 +20,23 @@
             
         <div class="login"> 
             <a href="signin.html"> 
-                <div style="padding-right: 20px; font-size:x-large; font-weight: bolder;" class="signin">Sign In</div>
+                <div style="padding-right: 20px; font-size:x-large; font-weight: bolder;" class="signin">Sign-In</div>
             </a>
             <a href="signup.html">
-                <div style=" font-size: x-large; font-weight: bolder;">Sign Up</div>
+                <div style=" font-size: x-large; font-weight: bolder;" class="signup">Sign-Up</div>
             </a>
         </div>
         
     </div>
     <!-- sign in page -->
     <div class="main-div">
-        <div class="center-div">
+        <form class="center-div">
             <h2>Sign In</h2>
             <div class="row">
                 
 
                 <div class="col-4"><label for="email">Enter Your Correct Email</label>
-                <input style="padding: 10px 30px; width: 70%;" type="email" name="" id="email"></div>
+                <input type="email" name="" id="email"></div>
                 
                  
                 
@@ -45,20 +45,25 @@
                  
             
                 <div class="col-4">
-                    <label for="password">Enter Your Correct Password</label><input style="padding: 10px 30px; width: 70%;" type="password" name="" id="password">
+                    <label for="password">Enter Your Correct Password</label><input type="password" name="" id="password">
                 </div> 
             </div>
             <div class="row">
                  <div class="col-4">
 
-                     <input type="submit" value="Sign In" style="padding: 10px 30px; width: 70%;">
+                     <input type="submit" value="Sign In"  >
                       
                  </div>
                 
-            </div>
+                </form>
              
         </div>
 
     </div>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="footer-div">Author: Mehran Hussain</div>
+
+    </footer>
 </body>
 </html>
