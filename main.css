@@ -4,14 +4,11 @@ html{
 }
 body{
     margin: 0;
-    padding: 0;
-    /* width: 100%;
-    height: 100%; */
+    padding: 0; 
     background-image: url(https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3BkMzYtMi1rc2MtMjAwOS0yMDY2LmpwZw.jpg?s=iQjTiuXoNiTk1Vjh2D_iV6HKARk72QWGw-9Sct9VO1U);
      background-repeat: repeat;
      background-size: cover;
      
-     /* position: relative; */
      
 }
 .header{
@@ -60,7 +57,7 @@ a{
      background-color: rgb(54, 46, 46);
     height: 60vh;
     margin-top: 25px;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     opacity: 0.7;
     
 }
@@ -83,8 +80,7 @@ a{
 }
  
 .row{
-    display: flex;
-    /* flex-wrap: nowrap; */
+    display: flex; 
      width: 100%;  
       
      
